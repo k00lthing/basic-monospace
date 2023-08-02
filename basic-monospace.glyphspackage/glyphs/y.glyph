@@ -3,7 +3,7 @@ glyphname = y;
 layers = (
 {
 layerId = m01;
-width = 600;
+width = 400;
 }
 );
 unicode = 121;
