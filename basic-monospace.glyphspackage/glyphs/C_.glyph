@@ -1,7 +1,5 @@
 {
 glyphname = C;
-kernLeft = O;
-kernRight = O;
 layers = (
 {
 layerId = m01;
@@ -38,7 +36,7 @@ nodes = (
 );
 }
 );
-width = 600;
+width = 500;
 }
 );
 unicode = 67;
