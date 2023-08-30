@@ -23,7 +23,7 @@ nodes = (
 );
 }
 );
-width = 500;
+width = 600;
 }
 );
 unicode = 120;
