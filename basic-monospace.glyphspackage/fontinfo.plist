@@ -29,7 +29,7 @@ id = m01;
 metricValues = (
 {
 over = 16;
-pos = 800;
+pos = 810;
 },
 {
 over = 16;
@@ -39,7 +39,8 @@ pos = 600;
 over = -16;
 },
 {
-pos = 700;
+over = 16;
+pos = 800;
 }
 );
 name = Regular;
@@ -53,8 +54,21 @@ GSOffsetHorizontal = 26;
 GSOffsetKeepCompatible = 1;
 GSOffsetMakeStroke = 1;
 GSOffsetVertical = 20;
+de.kutilek.MasterGrid.type = units;
+de.kutilek.MasterGrid.value = (
+10,
+10
+);
 };
 visible = 1;
+}
+);
+instances = (
+{
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
 }
 );
 metrics = (
@@ -68,9 +82,12 @@ type = "x-height";
 type = baseline;
 },
 {
-name = "Small Cap Height";
+name = "Cap without overshoot";
 }
 );
+settings = {
+keepAlternatesTogether = 1;
+};
 stems = (
 {
 name = vStemUppercase;
@@ -81,6 +98,12 @@ name = " hStemUppercase";
 );
 unitsPerEm = 1000;
 userData = {
+GSDimensionPlugin.Dimensions = {
+m01 = {
+HH = "50";
+HV = "60";
+};
+};
 backdropGlyphLib = {
 A = (
 (
@@ -1034,7 +1057,7 @@ d,
 ),
 (
 e,
-1,
+0,
 0
 ),
 (
@@ -1068,7 +1091,7 @@ c,
 d = (
 (
 c,
-0,
+1,
 0
 ),
 (
@@ -1088,12 +1111,12 @@ l,
 ),
 (
 o,
-1,
+0,
 0
 ),
 (
 q,
-1,
+0,
 0
 )
 );
@@ -1284,7 +1307,7 @@ F,
 g = (
 (
 c,
-0,
+1,
 0
 ),
 (
@@ -1294,7 +1317,7 @@ e,
 ),
 (
 o,
-1,
+0,
 0
 ),
 (
@@ -1419,7 +1442,7 @@ n,
 j = (
 (
 i,
-1,
+0,
 0
 ),
 (
@@ -1430,6 +1453,11 @@ l,
 (
 n,
 0,
+0
+),
+(
+o,
+1,
 0
 )
 );
@@ -1830,12 +1858,17 @@ question,
 u = (
 (
 n,
-1,
+0,
 0
 ),
 (
 v,
 0,
+0
+),
+(
+o,
+1,
 0
 )
 );
