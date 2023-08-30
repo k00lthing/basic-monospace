@@ -29,7 +29,7 @@ id = m01;
 metricValues = (
 {
 over = 16;
-pos = 810;
+pos = 800;
 },
 {
 over = 16;
@@ -39,8 +39,10 @@ pos = 600;
 over = -16;
 },
 {
-over = 16;
-pos = 800;
+pos = 810;
+},
+{
+pos = -10;
 }
 );
 name = Regular;
@@ -82,7 +84,10 @@ type = "x-height";
 type = baseline;
 },
 {
-name = "Cap without overshoot";
+type = ascender;
+},
+{
+type = descender;
 }
 );
 settings = {
